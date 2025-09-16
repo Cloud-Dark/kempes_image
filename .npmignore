@@ -1,0 +1,5 @@
+test_images/
+-p/
+.git/
+.gitignore
+QWEN.md

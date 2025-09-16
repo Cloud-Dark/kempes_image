@@ -1,6 +1,11 @@
 # Kempes - Image Compressor CLI
 
+[![GitHub](https://img.shields.io/github/license/Cloud-Dark/kempes_image)](https://github.com/Cloud-Dark/kempes_image)
+[![npm](https://img.shields.io/npm/v/kempes)](https://www.npmjs.com/package/kempes)
+
 Aplikasi CLI untuk kompresi gambar dengan berbagai format dan opsi kustomisasi.
+
+Repository: https://github.com/Cloud-Dark/kempes_image
 
 ## 📦 Instalasi
 
@@ -154,11 +159,30 @@ kempes -s=source -t=webp -q=80 -o=output
 
 ### Build dari Source
 ```bash
-git clone <repository-url>
-cd kempes
+git clone https://github.com/Cloud-Dark/kempes_image.git
+cd kempes_image
 npm install
 npm link
 ```
+
+## 🧪 Unit Tests
+
+This project includes unit tests to verify functionality. To run the tests:
+
+```bash
+npm test
+```
+
+The tests are located in the `test/` directory and use Jest as the testing framework.
+
+### Test Coverage
+
+Current tests cover:
+- Image file detection functionality
+- File size formatting
+- Transparent image handling
+- Directory creation
+- Format determination logic
 
 ## 📄 Lisensi
 

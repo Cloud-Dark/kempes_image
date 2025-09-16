@@ -4,18 +4,29 @@
   "description": "CLI tool untuk kompresi gambar dengan berbagai format dan opsi",
   "main": "index.js",
   "bin": {
-    "kempes": "./index.js"
+    "kempes": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "keywords": ["image", "compression", "cli", "jpg", "png", "webp", "webm"],
-  "author": "Your Name",
+  "keywords": [
+    "image",
+    "compression",
+    "cli",
+    "jpg",
+    "png",
+    "webp",
+    "webm"
+  ],
+  "author": "cloud-dark",
   "license": "MIT",
   "dependencies": {
     "sharp": "^0.32.6",
     "commander": "^11.1.0",
     "glob": "^10.3.10",
     "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
   }
 }
