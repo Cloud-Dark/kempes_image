@@ -2,6 +2,7 @@
 
 [![GitHub](https://img.shields.io/github/license/Cloud-Dark/kempes_image)](https://github.com/Cloud-Dark/kempes_image)
 [![npm](https://img.shields.io/npm/v/kempes)](https://www.npmjs.com/package/kempes)
+[![CI/CD](https://github.com/Cloud-Dark/kempes_image/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Cloud-Dark/kempes_image/actions/workflows/ci-cd.yml)
 
 Aplikasi CLI untuk kompresi gambar dengan berbagai format dan opsi kustomisasi.
 
@@ -194,4 +195,8 @@ Silakan buat issue di repository ini untuk bug reports atau feature requests.
 
 ## 🤝 Contributing
 
-Pull requests are welcome! Please read the contributing guidelines first.
+Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) first.
+
+This project follows a [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+
+## 📄 Lisensi
